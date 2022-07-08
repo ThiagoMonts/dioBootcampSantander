@@ -1,7 +1,5 @@
 # Funções
 
-Projetos referentes ao curso "Funções" que ministrei pela [Digital Innovation One](https://digitalinnovation.one/).
-
 ## Atividade 1: Alunos Aprovados
 
 1. Crie uma função que recebe o array `alunos` e um número que irá representar a média final;
