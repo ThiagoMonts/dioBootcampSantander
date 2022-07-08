@@ -1,3 +1,3 @@
 # Introdução ao Javascript
 
-Projeto de uma lista de tarefas
+Projeto de um Contador e uma lista de tarefas
