@@ -8,14 +8,15 @@ import { CourseService } from './course.service';
 })
 export class CourseInfoComponent implements OnInit {
 
-    course: Course;
+    course!: Course;
 
     constructor(private activatedRoute: ActivatedRoute, private courseService: CourseService) { }
     
     ngOnInit(): void { 
-        this.courseService.retrieveById(+this.activatedRoute.snapshot.paramMap.get('id')).subscribe({
-            next: course => this.course = course,
-            error: err => console.log('Error', err)
+        this.courseService.retrieveById 
+        if(this.activatedRoute.snapshot.paramMap!=null)({
+            next: (course: Course) => this.course = course,
+            error: (err: any) => console.log('Error', err)
         });
     }
 
