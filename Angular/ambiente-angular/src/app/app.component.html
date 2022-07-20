@@ -43,12 +43,14 @@ class="list-group-item"
 </li>
 </ul>
 
+<app-list-people></app-list-people>
+
 <ul class="lit-group mx-auto my-3 col-3">
   <li
    class="list-group-item"
    *ngFor="let pessoa of pessoas"
    >
-    O nome da pessoa é {{ pessoa.nome }} {{ pessoa.sobrenome}}.
+    O nome da pessoa é {{ pessoa.firstName }} {{ pessoa.lastName}} e ela tem {{pessoa.age}} anos.
   </li>
 </ul>
 
@@ -64,4 +66,13 @@ class="list-group-item"
   [(ngModel)]="text"
   >
     <h4>Saída: {{text}}</h4>
+</div>
+
+<div class="container my-5">
+  <div class="row d-flex align-center justify-content-center">
+    <h2 class="text-center">LISTAGEM DE PERSONAGENS RICK AND MORTY</h2>
+    <div class="col-12">
+      <app-list-api></app-list-api>
+    </div>
+  </div>
 </div>
