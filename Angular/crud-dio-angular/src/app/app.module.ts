@@ -11,6 +11,15 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DataBindingComponent } from './pages/data-binding/data-binding.component';
 import { ButtonComponent } from './component/button/button.component';
 import { LifeCycleComponent } from './component/life-cycle/life-cycle.component';
+import { TodoListComponent } from './pages/todo/todo-list/todo-list.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatInputModule } from '@angular/material/input';
+import { MatCardModule } from '@angular/material/card';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { TodoItemComponent } from './pages/todo/todo-item/todo-item.component';
+import { MatListModule } from '@angular/material/list';
+import { MatButtonModule } from '@angular/material/button'
+import { MatIconModule } from '@angular/material/icon'
 
 @NgModule({
   declarations: [
@@ -21,6 +30,8 @@ import { LifeCycleComponent } from './component/life-cycle/life-cycle.component'
     DataBindingComponent,
     ButtonComponent,
     LifeCycleComponent,
+    TodoListComponent,
+    TodoItemComponent,
 
   ],
   imports: [
@@ -29,7 +40,14 @@ import { LifeCycleComponent } from './component/life-cycle/life-cycle.component'
     RouterModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule 
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MatInputModule,
+    MatCardModule,
+    MatGridListModule,
+    MatListModule,
+    MatButtonModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
