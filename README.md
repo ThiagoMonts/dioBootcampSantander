@@ -33,5 +33,5 @@
 - [Desafios de Código](https://github.com/ThiagoMonts/dioBootcampSantander/tree/main/Desafios)
 
 
-## Conclusão do Bootcamp: 04/08/2022
+## Conclusão do Bootcamp: 03/08/2022
 ![Certificado de Conclusão](https://github.com/ThiagoMonts/dioBootcampSantander/blob/main/certificado.png)
