@@ -35,4 +35,4 @@
 
 
 ## Conclusão do Bootcamp: 04/08/2022
-![Certificado de Conclusão](https://github.com/ThiagoMonts/dioBootcampSantander/blob/main/Certificado%20Santander%20Bootcamp%20Fullstack%20Developer.pdf)
+![Certificado de Conclusão](https://github.com/ThiagoMonts/dioBootcampSantander/blob/main/certificado.png)
