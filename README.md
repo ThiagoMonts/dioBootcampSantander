@@ -3,7 +3,7 @@
 </div>
 
 <h1 align="center">Santander Bootcamp FullStack Developer</h1>
-<h4 align="justify">O Bootcamp Santander FullStack Developer é um programa de estudos em desenvolvimento e tecnologias FullStack. O programa teve duração de 120h de cursos, desafios práticos e mentorias em tecnologias essenciais para Front-End e Back-End.</h4>
+<h4 align="justify"> O Santander Bootcamp é um programa com o objetivo de fortalecer a comunidade tecnológica brasileira, potencializar a formação de talentos em desenvolvimento de software e gerar oportunidades de contratação em tecnologia. O programa teve uma carga horária de 120h, incluindo cursos, desafios de projeto e de códigos práticos, além de mentorias em tecnologias essenciais para Front-End e Back-End.</h4>
 
 <h3 align="center">
 ⚙️ Tecnologias utilizadas
@@ -19,7 +19,6 @@
 <img src="https://img.shields.io/badge/typescript-%231572B6.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
 </h3>
 
-
 ## Módulos Bootcamp
 
 - [Angular](https://github.com/ThiagoMonts/dioBootcampSantander/tree/main/Angular)
@@ -29,7 +28,7 @@
 - [TypeScript](https://github.com/ThiagoMonts/dioBootcampSantander/tree/main/TypeScript)
 
 
-## Projetos / Desafios de Código
+## Desafios de Código
 
 - [Desafios de Código](https://github.com/ThiagoMonts/dioBootcampSantander/tree/main/Desafios)
 
